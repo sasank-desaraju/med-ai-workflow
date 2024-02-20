@@ -37,8 +37,10 @@ In addition, make use of documentation provided online, like cheat sheets, and r
         - **(Windows) Make sure** to select "Add to PATH" in the Installer.
     - Extensions to install in VSCode:
         - Python
-        - Remote Development. Allows awesome remote access to HiPerGator.
-        - GitHub Copilot, GitHub CoPilot Chat. CoPilot is an AI LLM code assistant by GitHub. We get free access with our GitHub student account! Please install the CoPilot VSCode extension from the Extension tab.
+        - Remote Development.
+            - Allows awesome remote access to HiPerGator.
+        - GitHub Copilot, GitHub CoPilot Chat.
+            - CoPilot is an AI LLM code assistant by GitHub. We get free access with our GitHub student account! Please install the CoPilot VSCode extension from the Extension tab.
         - Better Comments by Aaron Bond.
         - indent-rainbow by oderwat.
     - (Windows) [this](https://code.visualstudio.com/docs/remote/wsl-tutorial) seems useful for Windows users (who are using WSL as per above)
