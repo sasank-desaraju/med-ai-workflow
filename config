@@ -1,0 +1,15 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+
+# From UF HPG insctructions on using ssh keys for access
+# https://help.rc.ufl.edu/doc/SSH_Multiplexing
+Host hpg
+    User albert.gator   # FILL YOUR NAME
+    HostName hpg.rc.ufl.edu
+    Port 2222
+    ControlPath ~/.ssh/cm-%r@%l-%h:%p
+    ControlMaster auto
+    ControlPersist 8h
+
+# Host alias
+#     HostName hostname
+#     User user
