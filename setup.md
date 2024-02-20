@@ -11,7 +11,7 @@ We'll get through this together and have a nice workflow going for you to do the
 **Please make use of LLMs like ChatGPT and GitHub CoPilot to troubleshoot!**
 In addition, make use of documentation provided online, like cheat sheets, and reach out to fellow students.
 
-3. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
+1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
     - Please follow [this guide](https://canonical-ubuntu-wsl.readthedocs-hosted.com/en/latest/guides/install-ubuntu-wsl2/) to install WSL Ubuntu
 
 1. Git and GitHub
