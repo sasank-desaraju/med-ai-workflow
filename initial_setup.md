@@ -21,6 +21,7 @@ In addition, make use of documentation provided online, like cheat sheets, and r
     2. Create a GitHub account **with your school email** (you get free stuff as a student!)
     3. (optional) Install [GitHub Desktop](https://desktop.github.com/) for a GUI (Graphic User Interface) for using Git and GitHub
         - This is optional because you *can* use Git/GitHub from the git CLI (Command Line Interface)
+        - You *may* have to use Git from the CLI on HPG. Maybe there are some VSCode plugins you can use...
         - I (Sasank) use the git CLI and don't really know how to work the Desktop app
     4. On the GitHub website, create SSH connection to your computer (the one you will be using for research)
         - Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) through the "Test your SSH connection" step
