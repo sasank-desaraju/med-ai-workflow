@@ -4,6 +4,7 @@
 
 
 ### General Terminal
+| Command | Desciption |
 | ---------- | ---------- |
 | `pwd` | __p__ rint __w__ orking __d__ irectory returns where you are in the file system |
 | `ls` | ls lists the contents of the directory you are in. Directory is the same as folder |
