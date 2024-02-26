@@ -45,16 +45,15 @@ GitHub is a company owned by Microsoft that generously hosts your code on their 
 
 1. Install [Git](https://git-scm.com/downloads)
     <details> <summary> <b>MacOS</b> </summary>
-    If you do not have homebrew installed (more likely):
-        submit `xcode-select --install` in the terminal.
+    - If you do not have homebrew installed (more likely):
+        submit ```xcode-select --install``` in the terminal.
         Here's a [video tutorial](https://www.youtube.com/watch?v=Mf3l8z6oxQ0)
 
-    If you have homewbrew installed:
+    - If you have homewbrew installed:
         Check by submitting `brew` in the terminal.
         If it prints out the version of homebrew, you have it.
         If it vomits an error about "command not found", you do not have homebrew
-        
-        If homebrew installed, submit `brew install git` and hit enter when it asks for permission to do stuff.
+        If homebrew installed, submit ```brew install git``` and hit enter when it asks for permission to do stuff.
         Here's a [video tutorial](https://www.youtube.com/watch?v=B4qsvQ5IqWk). You don't have to do the email bit at the end of this video.
     </details>
 
