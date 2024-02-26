@@ -51,7 +51,7 @@ GitHub is a company owned by Microsoft that generously hosts your code on their 
         Here's a [video tutorial](https://www.youtube.com/watch?v=B4qsvQ5IqWk). You don't have to do the email bit at the end of this video.
     </details>
 
-    <details> <summary> <b>Windows 🪟</b> </summary>
+    <details> <summary> <b>Windows WSL 🪟🐧</b> </summary>
     I will assume you are using WSL (Windows Subsystem for Linux) with Ubuntu.
     In this case, you already have Git installed on your WSL terminal. Since you now interact with your computer using Linux commands, you can use `sudo apt install git` to update your git if you wish.
     </details>
@@ -70,7 +70,7 @@ Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-
 
 - 😳👉👈 pls try to follow the above guide pls
 - MacOS 🍎, [here](https://www.youtube.com/watch?v=45YCxPnBj-w) is a video that follows along the above guide. You can stop the video at 4:00 as you do not need to create a repo to test the connection.
-- Windows WSL 🪟, [here](https://www.youtube.com/watch?v=Xi_2Cu8z2d0) and [here](https://www.youtube.com/watch?v=EoLrCX1VVog) are some walkthrough videos I found but neither is super great.
+- Windows WSL 🪟🐧, [here](https://www.youtube.com/watch?v=Xi_2Cu8z2d0) and [here](https://www.youtube.com/watch?v=EoLrCX1VVog) are some walkthrough videos I found but neither is super great.
 - You also need to do this on every computer you use for sending code to GitHub, including HiPerGator
 - Only need to do this once per computer, though :)
 
@@ -86,7 +86,7 @@ Installation:
 <details> <summary> <b>MacOS 🍎</b> </summary>
 Install from [the website](https://code.visualstudio.com/download)
 </details>
-<details> <summary> <b>Windows WSL 🪟</b> </summary>
+<details> <summary> <b>Windows WSL 🪟🐧</b> </summary>
 [This](https://code.visualstudio.com/docs/remote/wsl-tutorial) seems useful for Windows WSL users
 </details>
 <details> <summary> <b>Linux 🐧</b> </summary>
@@ -102,15 +102,16 @@ Extensions to install in VSCode:
     - Better Comments by Aaron Bond.
     - indent-rainbow by oderwat.
 
-### 7. Conda and Python
+### 7. Conda and Python 🐍
 If you just install Python, you'll be able to write Python code but it won't be easy to use all of the awesome Python software packages that other people have wrote. We need some of these for machine learning.
 
 Additionally, for a given project, you may want a specific "environment" where you are using Package A version 2.0, Package B version 1.3, Package C version 2.7, etc. You may want different packages/versions for different projects so it's nice to create a unique "environment" for each project.
 
 Conda is a tool which acts as both a package manager and an environment manager:
 
-- Install conda. The full ["anaconda"](https://www.anaconda.com/download#downloads) comes with a GUI interface to install packages and create environments. I use ["miniconda"](https://docs.anaconda.com/free/miniconda/) because it uses less disk space and I just use the CLI (AKA terminal) anyway.
+- Install conda. The full ["anaconda"](https://www.anaconda.com/download#downloads) comes with a GUI interface to install packages and create environments. I use ["miniconda"](https://docs.anaconda.com/free/miniconda/) because it uses **way** less disk space and I just use the CLI (AKA terminal) anyway.
 - The normal anaconda may be easier to use if you're not familiar with the terminal but I believe you have to use CLI conda on HPG (HiPerGator) anyway.
+- Windows WSL 🪟🐧 - [here](https://www.youtube.com/watch?v=MEbtOanQGZs) is a video that might help. This is showing how to install it into your WSL Linux operating system. Notice it is has you download the Linux download option instead of the Windows download option from the anaconda site.
 
 
 ### 8. HiPerGator (HPG)
