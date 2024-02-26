@@ -13,7 +13,7 @@ In addition, make use of documentation provided online, like cheat sheets, and r
 If you have a question with any part(s) of this guide, please ask ChatGPT! If you still have questions, reach out to Sasank.
 
 We are going to use **the terminal**.
-<details> <summary> <b>Opening the terminal</b> <summary>
+<details> <summary> <b>Opening the terminal</b> </summary>
 The terminal is a fully text-based interface with your computer.
 To open it up:
 MacOS - Hit `CMD+<Spc>` (Command key + Space bar) to open up the finder. Type "terminal" and hit enter to open it up.
