@@ -24,10 +24,12 @@ To open it up:
 - Linux - For Ubuntu, it's `CMD+Alt+t`.
 </details>
 
-1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
+## Steps!
+
+### 1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
     - Please follow [this guide](https://canonical-ubuntu-wsl.readthedocs-hosted.com/en/latest/guides/install-ubuntu-wsl2/) to install WSL Ubuntu
 
-1. Git and GitHub
+### 2. Git and GitHub
     - Git is a free and open-source "version control" software that allows multiple people to collaborate on a software project
     - GitHub is a company owned by Microsoft that generously hosts your code on their system so that you can edit it from anywhere. Kind of like how Dropbox "hosts your files" so you can access them from any computer.
     1. Install [Git](https://git-scm.com/downloads)
@@ -50,12 +52,12 @@ To open it up:
         In this case, you already have Git installed on your WSL terminal. Since you now interact with your computer using Linux commands, you can use `sudo apt install git` to update your git if you wish.
         </details>
         Please confirm your git install by entering `git --version` into your terminal and checking that it outputs the version of your Git (something like 2.39 or so).
-    2. Create a [GitHub account](https://github.com/) **with your school email** (you get free stuff as a student!)
-    3. (optional) Install [GitHub Desktop](https://desktop.github.com/) for a GUI (Graphic User Interface) for using Git and GitHub
+### 3. Create a [GitHub account](https://github.com/) **with your school email** (you get free stuff as a student!)
+### 4. (optional) Install [GitHub Desktop](https://desktop.github.com/) for a GUI (Graphic User Interface) for using Git and GitHub
         - This is optional because you *can* use Git/GitHub from the git CLI (Command Line Interface)
         - You *may* have to use Git from the CLI on HPG. Maybe there are some VSCode plugins you can use...
         - I (Sasank) use the git CLI and don't really know how to work the Desktop app
-    4. On the GitHub website, create SSH connection to your computer (the one you will be using for research)
+### 5. On the GitHub website, create SSH connection to your computer (the one you will be using for research)
         - This is needed for GitHub to know your computer has permission to edit your code on GitHub.
         - This step requires following multiple steps of terminal commands and can be confusing.
         - Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Make sure you use the "Generate new SSH key" section
@@ -67,7 +69,7 @@ To open it up:
     - Git cheat sheets, [here](https://training.github.com/downloads/github-git-cheat-sheet.pdf), [here](https://education.github.com/git-cheat-sheet-education.pdf), and [here](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
     - Git official [documentation](https://git-scm.com/docs)
 
-2. VSCode
+### 6. VSCode
     - Microsoft Visual Studio Code is an Integrated Development Environment (IDE) which has all of the tools to edit code/text and test/run your code. There are other options but I strongly recommend starting with VSCode. It is supported by Microsoft and has a thriving Extension marketplace with every add-on created. It is the [most popular](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment)
     - Install from [the website](https://code.visualstudio.com/download)
         - **(Windows) Make sure** to select "Add to PATH" in the Installer.
@@ -81,7 +83,7 @@ To open it up:
         - indent-rainbow by oderwat.
     - (Windows) [this](https://code.visualstudio.com/docs/remote/wsl-tutorial) seems useful for Windows users (who are using WSL as per above)
 
-4. Conda and Python
+### 7. Conda and Python
     - If you just install Python, you'll be able to write Python code but it won't be easy to use all of the awesome Python software packages that other people have wrote. We need some of these for machine learning.
 
     - Additionally, for a given project, you may want a specific "environment" where you are using Package A version 2.0, Package B version 1.3, Package C version 2.7, etc. You may want different packages/versions for different projects so it's nice to create a unique "environment" for each project.
@@ -91,4 +93,4 @@ To open it up:
     - The normal anaconda may be easier to use if you're not familiar with the terminal but I believe you have to use CLI conda on HPG (HiPerGator) anyway.
 
 
-5. HiPerGator (HPG)
+### 8. HiPerGator (HPG)
