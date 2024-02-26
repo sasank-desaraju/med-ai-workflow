@@ -64,12 +64,16 @@ I (Sasank) use the git CLI and don't really know how to work the Desktop app
 ### 5. On the GitHub website, create SSH connection to your computer (the one you will be using for research)
 This is needed for GitHub to know your computer has permission to edit your code on GitHub.
 This step requires following multiple steps of terminal commands and can be confusing.
-Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Make sure you use the "Generate new SSH key" section
-    - pls try to follow the above guide pls
-    - MacOS, [here](https://www.youtube.com/watch?v=45YCxPnBj-w) is a video that follows along the above guide. You can stop the video at 4:00 as you do not need to create a repo to test the connection.
-    - Windows WSL, [here](https://www.youtube.com/watch?v=Xi_2Cu8z2d0) and [here](https://www.youtube.com/watch?v=EoLrCX1VVog) are some walkthrough videos I found but neither is super great.
-    - You also need to do this on every computer you use for sending code to GitHub, including HiPerGator
-    - Only need to do this once per computer, though :)
+Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Make sure you use the "Generate new SSH key" section.
+
+- pls try to follow the above guide pls
+- MacOS, [here](https://www.youtube.com/watch?v=45YCxPnBj-w) is a video that follows along the above guide. You can stop the video at 4:00 as you do not need to create a repo to test the connection.
+- Windows WSL, [here](https://www.youtube.com/watch?v=Xi_2Cu8z2d0) and [here](https://www.youtube.com/watch?v=EoLrCX1VVog) are some walkthrough videos I found but neither is super great.
+- You also need to do this on every computer you use for sending code to GitHub, including HiPerGator
+- Only need to do this once per computer, though :)
+
+Git/GitHub resources:
+    
 - Git cheat sheets, [here](https://training.github.com/downloads/github-git-cheat-sheet.pdf), [here](https://education.github.com/git-cheat-sheet-education.pdf), and [here](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - Git official [documentation](https://git-scm.com/docs)
 
