@@ -45,6 +45,7 @@ GitHub is a company owned by Microsoft that generously hosts your code on their 
 
 1. Install [Git](https://git-scm.com/downloads)
     <details> <summary> <b>MacOS</b> </summary>
+        
     - If you do not have homebrew installed (more likely):
         submit ```xcode-select --install``` in the terminal.
         Here's a [video tutorial](https://www.youtube.com/watch?v=Mf3l8z6oxQ0)
