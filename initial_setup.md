@@ -35,7 +35,7 @@ To open it up:
 
 ## Steps!
 
-### 1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
+### 1. (Windows Users only) Install WSL (Windows Subsystem for Linux) using Ubuntu
 Please follow [this guide](https://canonical-ubuntu-wsl.readthedocs-hosted.com/en/latest/guides/install-ubuntu-wsl2/) to install WSL Ubuntu
 
 ### 2. Git and GitHub
