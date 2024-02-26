@@ -112,7 +112,7 @@ Conda is a tool which acts as both a package manager and an environment manager:
 - Install conda. The full ["anaconda"](https://www.anaconda.com/download#downloads) comes with a GUI interface to install packages and create environments. I use ["miniconda"](https://docs.anaconda.com/free/miniconda/) because it uses **way** less disk space and I just use the CLI (AKA terminal) anyway.
 - The normal anaconda may be easier to use if you're not familiar with the terminal but I believe you have to use CLI conda on HPG (HiPerGator) anyway.
 - Windows WSL 🪟🐧 - [here](https://www.youtube.com/watch?v=MEbtOanQGZs) is a video that might help. This is showing how to install it into your WSL Linux operating system. Notice it is has you download the Linux download option instead of the Windows download option from the anaconda site.
-
+    - The key point is to download the Linux installer file to your computer, find where it is in the terminal (perhaps by using the `cd` command), and then execute that file using ```bash Anaconda3-2023.09-0-Linux-x86_64.sh```(I think that's the file you should download but please check).
 
 ### 8. HiPerGator (HPG)
 Pls have a HPG account.
