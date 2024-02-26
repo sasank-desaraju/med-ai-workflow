@@ -10,6 +10,17 @@ We'll get through this together and have a nice workflow going for you to do the
 
 **Please make use of LLMs like ChatGPT and GitHub CoPilot to troubleshoot!**
 In addition, make use of documentation provided online, like cheat sheets, and reach out to fellow students.
+If you have a question with any part(s) of this guide, please ask ChatGPT! If you still have questions, reach out to Sasank.
+
+We are going to use **the terminal**.
+<details> <summary> <b>Opening the terminal</b> <summary>
+The terminal is a fully text-based interface with your computer.
+To open it up:
+MacOS - Hit `CMD+<Spc>` (Command key + Space bar) to open up the finder. Type "terminal" and hit enter to open it up.
+Windows - Hit Windows key to open up the finder. Search for PowerShell and open it with administrator privileges
+Windows pt. 2 - after you install WSL (See below), please use your WSL Linux terminal instead. Please reach out to ChatGPT or Sasank for clarification.
+Linux - For Ubuntu, it's `CMD+Alt+t`.
+</details>
 
 1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
     - Please follow [this guide](https://canonical-ubuntu-wsl.readthedocs-hosted.com/en/latest/guides/install-ubuntu-wsl2/) to install WSL Ubuntu
@@ -18,15 +29,37 @@ In addition, make use of documentation provided online, like cheat sheets, and r
     - Git is a free and open-source "version control" software that allows multiple people to collaborate on a software project
     - GitHub is a company owned by Microsoft that generously hosts your code on their system so that you can edit it from anywhere. Kind of like how Dropbox "hosts your files" so you can access them from any computer.
     1. Install [Git](https://git-scm.com/downloads)
-    2. Create a GitHub account **with your school email** (you get free stuff as a student!)
+        <details> <summary> <b>MacOS</b> </summary>
+        If you do not have homebrew installed (more likely):
+            submit `xcode-select --install` in the terminal.
+            Here's a [video tutorial](https://www.youtube.com/watch?v=Mf3l8z6oxQ0)
+
+        If you have homewbrew installed:
+            Check by submitting `brew` in the terminal.
+            If it prints out the version of homebrew, you have it.
+            If it vomits an error about "command not found", you do not have homebrew
+            
+            If homebrew installed, submit `brew install git` and hit enter when it asks for permission to do stuff.
+            Here's a [video tutorial](https://www.youtube.com/watch?v=B4qsvQ5IqWk). You don't have to do the email bit at the end of this video.
+        </details>
+
+        <details> <summary> <b>Windows</b> </summary>
+        I will assume you are using WSL (Windows Subsystem for Linux) with Ubuntu.
+        In this case, you already have Git installed on your WSL terminal. Since you now interact with your computer using Linux commands, you can use `sudo apt install git` to update your git if you wish.
+        </details>
+        Please confirm your git install by entering `git --version` into your terminal and checking that it outputs the version of your Git (something like 2.39 or so).
+    2. Create a [GitHub account](https://github.com/) **with your school email** (you get free stuff as a student!)
     3. (optional) Install [GitHub Desktop](https://desktop.github.com/) for a GUI (Graphic User Interface) for using Git and GitHub
         - This is optional because you *can* use Git/GitHub from the git CLI (Command Line Interface)
         - You *may* have to use Git from the CLI on HPG. Maybe there are some VSCode plugins you can use...
         - I (Sasank) use the git CLI and don't really know how to work the Desktop app
     4. On the GitHub website, create SSH connection to your computer (the one you will be using for research)
-        - Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) through the "Test your SSH connection" step
         - This is needed for GitHub to know your computer has permission to edit your code on GitHub.
-        - Yes, this is confusing. Yes, I apologize for the jargon in the guide above.
+        - This step requires following multiple steps of terminal commands and can be confusing.
+        - Use [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Make sure you use the "Generate new SSH key" section
+        - pls try to follow the above guide pls
+        - MacOS, [here](https://www.youtube.com/watch?v=45YCxPnBj-w) is a video that follows along the above guide. You can stop the video at 4:00 as you do not need to create a repo to test the connection.
+        - Windows WSL, [here](https://www.youtube.com/watch?v=Xi_2Cu8z2d0) and [here](https://www.youtube.com/watch?v=EoLrCX1VVog) are some walkthrough videos I found but neither is super great.
         - You also need to do this on every computer you use for sending code to GitHub, including HiPerGator
         - Only need to do this once per computer, though :)
     - Git cheat sheets, [here](https://training.github.com/downloads/github-git-cheat-sheet.pdf), [here](https://education.github.com/git-cheat-sheet-education.pdf), and [here](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
