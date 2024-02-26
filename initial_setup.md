@@ -27,31 +27,33 @@ To open it up:
 ## Steps!
 
 ### 1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
-    - Please follow [this guide](https://canonical-ubuntu-wsl.readthedocs-hosted.com/en/latest/guides/install-ubuntu-wsl2/) to install WSL Ubuntu
+Please follow [this guide](https://canonical-ubuntu-wsl.readthedocs-hosted.com/en/latest/guides/install-ubuntu-wsl2/) to install WSL Ubuntu
 
 ### 2. Git and GitHub
-    - Git is a free and open-source "version control" software that allows multiple people to collaborate on a software project
-    - GitHub is a company owned by Microsoft that generously hosts your code on their system so that you can edit it from anywhere. Kind of like how Dropbox "hosts your files" so you can access them from any computer.
-    1. Install [Git](https://git-scm.com/downloads)
-        <details> <summary> <b>MacOS</b> </summary>
-        If you do not have homebrew installed (more likely):
-            submit `xcode-select --install` in the terminal.
-            Here's a [video tutorial](https://www.youtube.com/watch?v=Mf3l8z6oxQ0)
+Git is a free and open-source "version control" software that allows multiple people to collaborate on a software project
 
-        If you have homewbrew installed:
-            Check by submitting `brew` in the terminal.
-            If it prints out the version of homebrew, you have it.
-            If it vomits an error about "command not found", you do not have homebrew
-            
-            If homebrew installed, submit `brew install git` and hit enter when it asks for permission to do stuff.
-            Here's a [video tutorial](https://www.youtube.com/watch?v=B4qsvQ5IqWk). You don't have to do the email bit at the end of this video.
-        </details>
+GitHub is a company owned by Microsoft that generously hosts your code on their system so that you can edit it from anywhere. Kind of like how Dropbox "hosts your files" so you can access them from any computer.
 
-        <details> <summary> <b>Windows</b> </summary>
-        I will assume you are using WSL (Windows Subsystem for Linux) with Ubuntu.
-        In this case, you already have Git installed on your WSL terminal. Since you now interact with your computer using Linux commands, you can use `sudo apt install git` to update your git if you wish.
-        </details>
-        Please confirm your git install by entering `git --version` into your terminal and checking that it outputs the version of your Git (something like 2.39 or so).
+1. Install [Git](https://git-scm.com/downloads)
+    <details> <summary> <b>MacOS</b> </summary>
+    If you do not have homebrew installed (more likely):
+        submit `xcode-select --install` in the terminal.
+        Here's a [video tutorial](https://www.youtube.com/watch?v=Mf3l8z6oxQ0)
+
+    If you have homewbrew installed:
+        Check by submitting `brew` in the terminal.
+        If it prints out the version of homebrew, you have it.
+        If it vomits an error about "command not found", you do not have homebrew
+        
+        If homebrew installed, submit `brew install git` and hit enter when it asks for permission to do stuff.
+        Here's a [video tutorial](https://www.youtube.com/watch?v=B4qsvQ5IqWk). You don't have to do the email bit at the end of this video.
+    </details>
+
+    <details> <summary> <b>Windows</b> </summary>
+    I will assume you are using WSL (Windows Subsystem for Linux) with Ubuntu.
+    In this case, you already have Git installed on your WSL terminal. Since you now interact with your computer using Linux commands, you can use `sudo apt install git` to update your git if you wish.
+    </details>
+    Please confirm your git install by entering `git --version` into your terminal and checking that it outputs the version of your Git (something like 2.39 or so).
 ### 3. Create a [GitHub account](https://github.com/) **with your school email** (you get free stuff as a student!)
 ### 4. (optional) Install [GitHub Desktop](https://desktop.github.com/) for a GUI (Graphic User Interface) for using Git and GitHub
         - This is optional because you *can* use Git/GitHub from the git CLI (Command Line Interface)
