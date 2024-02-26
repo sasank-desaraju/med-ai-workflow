@@ -4,7 +4,16 @@ We're so glad you are setting up your system for AI research.
 
 Disclaimer: Getting everything set up is a bit of a pain. There are a lot of little things to sign up for and connect which can feel overwhelming.
 
-However, do not be discouraged!
+> :warning: **Note:** However, do not be discouraged!
+
+> - [ ] Learn GFM
+
+> werd
+>
+> ```bash
+> sudo apt install git
+> npm install poop
+> ```
 
 We'll get through this together and have a nice workflow going for you to do the fun part (AI research).
 
