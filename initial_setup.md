@@ -78,27 +78,39 @@ Git/GitHub resources:
 - Git official [documentation](https://git-scm.com/docs)
 
 ### 6. VSCode
-    - Microsoft Visual Studio Code is an Integrated Development Environment (IDE) which has all of the tools to edit code/text and test/run your code. There are other options but I strongly recommend starting with VSCode. It is supported by Microsoft and has a thriving Extension marketplace with every add-on created. It is the [most popular](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment)
-    - Install from [the website](https://code.visualstudio.com/download)
-        - **(Windows) Make sure** to select "Add to PATH" in the Installer.
-    - Extensions to install in VSCode:
-        - Python
-        - Remote Development.
-            - Allows awesome remote access to HiPerGator.
-        - GitHub Copilot, GitHub CoPilot Chat.
-            - CoPilot is an AI LLM code assistant by GitHub. We get free access with our GitHub student account! Please install the CoPilot VSCode extension from the Extension tab.
-        - Better Comments by Aaron Bond.
-        - indent-rainbow by oderwat.
-    - (Windows) [this](https://code.visualstudio.com/docs/remote/wsl-tutorial) seems useful for Windows users (who are using WSL as per above)
+Microsoft Visual Studio Code is an Integrated Development Environment (IDE) which has all of the tools to edit code/text and test/run your code. There are other options but I strongly recommend starting with VSCode. It is supported by Microsoft and has a thriving Extension marketplace with every add-on created. It is the [most popular](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment)
+
+Installation:
+<details> <summary> <b>MacOS</b> </summary>
+Install from [the website](https://code.visualstudio.com/download)
+</details>
+<details> <summary> <b>Windows WSL</b> </summary>
+[This](https://code.visualstudio.com/docs/remote/wsl-tutorial) seems useful for Windows WSL users
+</details>
+<details> <summary> <b>Linux</b> </summary>
+Install from [the website](https://code.visualstudio.com/download)
+</details>
+
+Extensions to install in VSCode:
+    - Python
+    - Remote Development.
+        - Allows awesome remote access to HiPerGator.
+    - GitHub Copilot, GitHub CoPilot Chat.
+        - CoPilot is an AI LLM code assistant by GitHub. We get free access with our GitHub student account! Please install the CoPilot VSCode extension from the Extension tab.
+    - Better Comments by Aaron Bond.
+    - indent-rainbow by oderwat.
 
 ### 7. Conda and Python
-    - If you just install Python, you'll be able to write Python code but it won't be easy to use all of the awesome Python software packages that other people have wrote. We need some of these for machine learning.
+If you just install Python, you'll be able to write Python code but it won't be easy to use all of the awesome Python software packages that other people have wrote. We need some of these for machine learning.
 
-    - Additionally, for a given project, you may want a specific "environment" where you are using Package A version 2.0, Package B version 1.3, Package C version 2.7, etc. You may want different packages/versions for different projects so it's nice to create a unique "environment" for each project.
+Additionally, for a given project, you may want a specific "environment" where you are using Package A version 2.0, Package B version 1.3, Package C version 2.7, etc. You may want different packages/versions for different projects so it's nice to create a unique "environment" for each project.
 
-    - Conda is a tool which acts as both a package manager and an environment manager.
-    - Install conda. The full ["anaconda"](https://www.anaconda.com/download#downloads) comes with a GUI interface to install packages and create environments. I use ["miniconda"](https://docs.anaconda.com/free/miniconda/) because it uses less disk space and I just use the CLI (AKA terminal) anyway.
-    - The normal anaconda may be easier to use if you're not familiar with the terminal but I believe you have to use CLI conda on HPG (HiPerGator) anyway.
+Conda is a tool which acts as both a package manager and an environment manager:
+
+- Install conda. The full ["anaconda"](https://www.anaconda.com/download#downloads) comes with a GUI interface to install packages and create environments. I use ["miniconda"](https://docs.anaconda.com/free/miniconda/) because it uses less disk space and I just use the CLI (AKA terminal) anyway.
+- The normal anaconda may be easier to use if you're not familiar with the terminal but I believe you have to use CLI conda on HPG (HiPerGator) anyway.
 
 
 ### 8. HiPerGator (HPG)
+Pls have a HPG account.
+Then, see the [HPG page](hpg.md).

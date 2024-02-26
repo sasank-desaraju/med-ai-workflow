@@ -35,7 +35,7 @@ This is the part where we need a lot of GPUs.
 8. Congrats! You're now connected to HiPerGator.
 
 9. Make sure you are using your environment.
-    - If you are using a notebook (something.ipynb), check your "kernel" at the top right to make sure it's using the conda environment you want.
+    - If you are using a "notebook" (something.ipynb), check your "kernel" at the top right to make sure it's using the conda environment you want.
     - If you are running a Python script directly, make sure you have the right conda environment loaded.
 
 
