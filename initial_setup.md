@@ -15,11 +15,13 @@ If you have a question with any part(s) of this guide, please ask ChatGPT! If yo
 We are going to use **the terminal**.
 <details> <summary> <b>Opening the terminal</b> </summary>
 The terminal is a fully text-based interface with your computer.
+    
 To open it up:
-MacOS - Hit `CMD+<Spc>` (Command key + Space bar) to open up the finder. Type "terminal" and hit enter to open it up.
-Windows - Hit Windows key to open up the finder. Search for PowerShell and open it with administrator privileges
-Windows pt. 2 - after you install WSL (See below), please use your WSL Linux terminal instead. Please reach out to ChatGPT or Sasank for clarification.
-Linux - For Ubuntu, it's `CMD+Alt+t`.
+
+- MacOS - Hit `CMD+<Spc>` (Command key + Space bar) to open up the finder. Type "terminal" and hit enter to open it up.
+- Windows - Hit Windows key to open up the finder. Search for PowerShell and open it with administrator privileges
+- Windows pt. 2 - after you install WSL (See below), please use your WSL Linux terminal instead. Please reach out to ChatGPT or Sasank for clarification.
+- Linux - For Ubuntu, it's `CMD+Alt+t`.
 </details>
 
 1. (Windows Users only) WSL (Windows Subsystem for Linux) Ubuntu
