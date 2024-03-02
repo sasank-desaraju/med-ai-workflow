@@ -4,7 +4,7 @@
 
 
 ### General Terminal
-| Command | Desciption |
+| Command | Description |
 | ---------- | ---------- |
 | `pwd` | **p**rint **w**orking **d**irectory returns where you are in the file system |
 | `ls` | ls **l**i**s**ts the contents of the directory you are in. Directory is the same as folder |
@@ -18,7 +18,7 @@
 
 ### HiPerGator
 
-| Command | Desciption |
+| Command | Description |
 | ---------- | ---------- |
 | `squeue -A [account]` | shows what jobs are running on a given account |
 | `ShowAssoc -u [username]` | shows what HPG accounts a user has access to |
