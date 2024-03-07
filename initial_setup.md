@@ -2,7 +2,7 @@
 
 👋 We're so glad you are setting up your system for AI research.
 
-⚠️ Disclaimer: Getting everything set up can feel a little tedious. There are a lot of little things to sign up for and connect which can feel overwhelming.
+⚠️  Disclaimer: Getting everything set up can feel a little tedious. There are a lot of little things to sign up for and connect which can feel overwhelming.
 
 ✨ However, be not discouraged!
 

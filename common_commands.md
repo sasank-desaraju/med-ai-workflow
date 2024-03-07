@@ -4,10 +4,10 @@
 
 
 ### General Terminal
-| Command | Description |
-| ---------- | ---------- |
-| `pwd` | **p**rint **w**orking **d**irectory returns where you are in the file system |
-| `ls` | ls **l**i**s**ts the contents of the directory you are in. Directory is the same as folder |
+| Command | Description | | Example | Notes |
+| ---------- | ---------- | ---------- | ---------- |
+| `pwd` | **p**rint **w**orking **d**irectory returns where you are in the file system | `pwd` | Use this anywhere to show where you are in the file system |
+| `ls` | ls **l**i**s**ts the contents of the directory you are in. Directory is the same as folder | `ls` | Use `ls -a` to show "hidden" files and directories (those that start with a period like ".config") |
 | `cd` | **c**hange **d**irectory allows you to go to a different folder. `cd my_folder` goes from your current folder into the subfolder called "my_folder". Just entering `cd` will take you back to the home directory (`~`)! |
 | `mv` | **m**o**v**e or rename a file. E.g. `mv old_name.png new_name.png`, `mv foo.txt my_folder/foo.txt` |
 
