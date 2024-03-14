@@ -24,6 +24,7 @@
 | `vim` | a more advanced terminal text editor | `vim foo.txt` | |
 
 ### File Permissions :lock:
+
 | Command | Description | | Example | Notes |
 | ---------- | ---------- | ---------- | ---------- |
 | `chmod` | **ch**ange **mod**e of a file or directory | `chmod +x foo.txt` to allow the file to be e**x**ecuted | Use `chmod` to change the permissions of a file or directory |
@@ -41,9 +42,9 @@
 | `git add` | add file contents to the index | `git add foo.txt`, `git add -A` | first step to saving your changes on GitHub, `git add -A` adds everything in the repo |
 | `git commit` | record changes to the repository | `git commit -m "Added a new feature"` | second step |
 | `git push` | update remote refs along with associated objects | `git push` | third and final step |
-| `git branch` | list, create, or delete branches | `git branch`, `git branch new_feature` | |
-| `git checkout` | switch branches or restore working tree files | `git checkout new_feature` | |
-| `git diff` | show changes between commits, commit and working tree, etc | `git diff` | |
+| `git branch` | list, create, or delete branches | `git branch`, `git branch new_feature` | asdf |
+| `git checkout` | switch branches or restore working tree files | `git checkout new_feature` | asdf |
+| `git diff` | show changes between commits, commit and working tree, etc | `git diff` | asdf |
 
 
 ### HiPerGator :rocket:
