@@ -31,6 +31,18 @@
 | `chmod` | **ch**ange **mod**e of a file or directory | `chmod +x foo.txt` to allow the file to be e**x**ecuted | Use `chmod` to change the permissions of a file or directory |
 | `chown` | **ch**ange **own**er of a file or directory | `chown user:group foo.txt` | Use `chown` to change the owner of a file or directory |
 
+### Conda :snake:
+
+| Command | Description | Example | Notes |
+| ---------- | ---------- | ---------- | ---------- |
+| `conda create` | create a new conda environment | `conda create -n my_env python=3.8` | |
+| `conda activate` | activate a conda environment | `conda activate my_env` | |
+| `conda deactivate` | deactivate the current conda environment | `conda deactivate` | |
+| `conda list` | list all packages in the current conda environment | `conda list` | |
+| `conda install` | install a package into the current conda environment | `conda install numpy -c anaconda` | Specify the "channel" you use with the `-c` flag. Find the channel why youf search it. E.g., searching "numpy conda" will show that numpy is from the anaconda channel |
+| `conda remove` | remove a package from the current conda environment | `conda remove numpy` | |
+| `mamba install` | a faster alternative to `conda install` | `mamba install numpy` | Please install mamba as one of the first things you install and then use `mamba install` instead of `conda install` |
+
 ### Git/GitHub :octocat:
 - Git cheat sheets, [here](https://training.github.com/downloads/github-git-cheat-sheet.pdf), [here](https://education.github.com/git-cheat-sheet-education.pdf), and [here](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - Git official [documentation](https://git-scm.com/docs)
