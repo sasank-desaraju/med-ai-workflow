@@ -4,7 +4,8 @@
 
 
 ### General Terminal Commands :computer:
-| Command | Description | | Example | Notes |
+
+| Command | Description | Example | Notes |
 | ---------- | ---------- | ---------- | ---------- |
 | `pwd` | **p**rint **w**orking **d**irectory returns where you are in the file system | `pwd` | Use this anywhere to show where you are in the file system |
 | `ls` | ls **l**i**s**ts the contents of the directory you are in. Directory is the same as folder | `ls` | Use `ls -a` to show "hidden" files and directories (those that start with a period like ".config") |
@@ -14,18 +15,18 @@
 | `rm` | **r**e**m**ove a file. | `rm foo.txt` | Use `rm -r` to remove a directory |
 | `mkdir` | **m**a**k**e **dir**ectory. | `mkdir my_folder` | Use `mkdir -p` to make a directory and any parent directories that don't exist |
 | `rmdir` | **r**e**m**ove **dir**ectory. | `rmdir my_folder` | Use `rmdir -p` to remove a directory and any parent directories that are empty |
-| `touch` | creates an empty file | `touch foo.txt` | |
+| `touch` | creates an empty file | `touch foo.txt` | asdf |
 | `cat` | **cat**enate and print files. | `cat foo.txt` | Use `cat` to print the contents of a file to the terminal |
 
 ### Text Editors :pencil:
-| Command | Description | | Example | Notes |
+| Command | Description | Example | Notes |
 | ---------- | ---------- | ---------- | ---------- |
 | `nano` | a simple terminal text editor | `nano foo.txt` | |
 | `vim` | a more advanced terminal text editor | `vim foo.txt` | |
 
 ### File Permissions :lock:
 
-| Command | Description | | Example | Notes |
+| Command | Description | Example | Notes |
 | ---------- | ---------- | ---------- | ---------- |
 | `chmod` | **ch**ange **mod**e of a file or directory | `chmod +x foo.txt` to allow the file to be e**x**ecuted | Use `chmod` to change the permissions of a file or directory |
 | `chown` | **ch**ange **own**er of a file or directory | `chown user:group foo.txt` | Use `chown` to change the owner of a file or directory |
@@ -34,7 +35,7 @@
 - Git cheat sheets, [here](https://training.github.com/downloads/github-git-cheat-sheet.pdf), [here](https://education.github.com/git-cheat-sheet-education.pdf), and [here](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 - Git official [documentation](https://git-scm.com/docs)
 
-| Command | Description | | Example | Notes |
+| Command | Description | Example | Notes |
 | ---------- | ---------- | ---------- | ---------- |
 | `git clone` | clone a repository into a new directory | `git clone git@github.com:sasank-desaraju/med-ai-workflow.git` | What you use to "get" a git repository |
 | `git status` | show the working tree status | `git status` | |
@@ -67,7 +68,7 @@ This is a SLURM-based system, so you'll need to use SLURM commands to submit job
 
 
 ### File Transfer :inbox_tray: :outbox_tray:
-| Command | Description | | Example | Notes |
+| Command | Description | Example | Notes |
 | ---------- | ---------- | ---------- | ---------- |
 | `sftp` | **s**ecure **f**ile **t**ransfer **p**rotocol. Securely transfer files between computers using SSH | `sftp user@remote_host` | Use `sftp` to transfer files between computers |
 | `scp` | **s**ecure **c**o**p**y. Copy files between computers using SSH | `scp foo.txt user@remote_host:/remote/directory` | Use `scp` to copy files between computers |
