@@ -15,7 +15,7 @@
 | `rm` | **r**e**m**ove a file. | `rm foo.txt` | Use `rm -r` to remove a directory |
 | `mkdir` | **m**a**k**e **dir**ectory. | `mkdir my_folder` | Use `mkdir -p` to make a directory and any parent directories that don't exist |
 | `rmdir` | **r**e**m**ove **dir**ectory. | `rmdir my_folder` | Use `rmdir -p` to remove a directory and any parent directories that are empty |
-| `touch` | creates an empty file | `touch foo.txt` | asdf |
+| `touch` | creates an empty file | `touch foo.txt` | |
 | `cat` | **cat**enate and print files. | `cat foo.txt` | Use `cat` to print the contents of a file to the terminal |
 
 ### Text Editors :pencil:
@@ -43,9 +43,9 @@
 | `git add` | add file contents to the index | `git add foo.txt`, `git add -A` | first step to saving your changes on GitHub, `git add -A` adds everything in the repo |
 | `git commit` | record changes to the repository | `git commit -m "Added a new feature"` | second step |
 | `git push` | update remote refs along with associated objects | `git push` | third and final step |
-| `git branch` | list, create, or delete branches | `git branch`, `git branch new_feature` | asdf |
-| `git checkout` | switch branches or restore working tree files | `git checkout new_feature` | asdf |
-| `git diff` | show changes between commits, commit and working tree, etc | `git diff` | asdf |
+| `git branch` | list, create, or delete branches | `git branch`, `git branch new_feature` | |
+| `git checkout` | switch branches or restore working tree files | `git checkout new_feature` | |
+| `git diff` | show changes between commits, commit and working tree, etc | `git diff` | |
 
 
 ### HiPerGator :rocket:
