@@ -29,7 +29,7 @@ This is the part where we need a lot of GPUs.
     - See [this](https://help.rc.ufl.edu/doc/Development_and_Testing) for more on when to use login nodes vs using an interactive session
 4. (optional) Start tmux (`tmux`)
     - This is (fun) wizardry. Not needed but p cool. See Sasank for more.
-5. Start a vscode tunnel (`bash vscode_development.sh` or `./vscode_development.sh`)
+5. Start a vscode tunnel (`bash vscode_tunnel.sh` or `./vscode_tunnel.sh`)
 6. Open VSCode on you local computer and go to the "Remote Explorer". This is a button on the left side bar that looks like a computer screen with a circle at the bottom right.
 7. In the menu that comes on the left side bar, you should see your session under REMOTES/Tunnels. Click on the arrow on the right side of your session to connect.
 8. Congrats! You're now connected to HiPerGator.
