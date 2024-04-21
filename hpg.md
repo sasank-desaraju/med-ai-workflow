@@ -23,7 +23,7 @@ This is the part where we need a lot of GPUs.
 1. SSH in to HPG (e.g. `ssh your.name@hpg.rc.ufl.edu`)
     - (MacOS and Linux) You can create a shortcup so it's just `ssh hpg` if you have your SSH config set up
     - See [this guide](https://help.rc.ufl.edu/doc/SSH_Multiplexing)
-2. Change your login node to a number that you always choose (e.g. `ssh login7`)
+2. (optional) Change your login node to a number that you always choose (e.g. `ssh login7`)
 3. (optional but usually needed) Begin an interactive session (i.e. `bash interactive.sh` or `./interactive.sh`)
     - This is if you need GPUs (or other computing resources beyond what is provided on login nodes).
     - See [this](https://help.rc.ufl.edu/doc/Development_and_Testing) for more on when to use login nodes vs using an interactive session
